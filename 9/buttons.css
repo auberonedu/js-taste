@@ -5,11 +5,25 @@ body {
   margin: 0;
   padding: 0;
   text-align: center;
+  transition: background-color 2s, color 2s;
+}
+
+body.dark-mode {
+  background-color: black;
+  color: white;
 }
 
 header, footer {
   padding: 20px;
   background-color: #f0f0f0;
+  position: relative;
+  top: 0px;
+  transition: background-color 2s, top 2s;
+}
+
+body.dark-mode header, body.dark-mode footer {
+  background-color: grey;
+  top: 500px;
 }
 
 main {

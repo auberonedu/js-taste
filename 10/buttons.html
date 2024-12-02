@@ -5,17 +5,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Powerful Button</title>
   <link rel="stylesheet" href="buttons.css">
+  <script src="buttons.js" defer></script>
 </head>
-<body>
+<body class = "darkmode">
   <header>
     <h1>The Powerful Buttons</h1>
   </header>
 
   <main>
     <p>Click each button to see an effect!</p>
-    <button>Press me to see an alert!</button>
-    <button>Press me to log to the console!</button>
-    <button>Press me to switch to dark mode!</button>
+    <button onclick = "AlertButtonPress()">Press me to see an alert!</button>
+    <button onclick = "LogButtonPress()">Press me to log to the console!</button>
+    <button onclick = "DarkModeButtonPress()">Press me to switch to dark mode!</button>
     <button>Press me to make something wacky happen!</button>
   </main>
 

@@ -6,12 +6,20 @@ body {
   padding: 0;
   text-align: center;
 }
+body.dark-mode
+{
+  background-color: black;
+  color: white;
+}
 
 header, footer {
   padding: 20px;
   background-color: #f0f0f0;
 }
-
+body.dark-mode header, body.dark-mode footer
+{
+  background-color: grey;
+}
 main {
   padding: 20px;
 }
