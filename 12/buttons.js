@@ -11,3 +11,7 @@ function myyell() {
 function toggleDarkMode() {
     document.body.classList.toggle("dark")
 }
+
+function changeExterminatus() {
+    document.getElementById("Exterminatus").innerHTML = "BOOM!";
+}

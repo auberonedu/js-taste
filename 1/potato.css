@@ -33,4 +33,14 @@ button {
 button:hover {
     background-color: #e5c9a8;
 }
+
+body.dark-mode {
+    background-color: brown;
+    color: white;
+  }
+  
+  body.dark-mode header, body.dark-mode footer {
+    background-color: grey;
+    top: 500px; 
+  }
   

@@ -9,3 +9,6 @@ function alertButtonPress() {
 function toggleDarkMode() { 
     document.body.classList.toggle("dark-mode");
 }
+function changeWacky() { 
+    document.getElementById("wackyButton").innerHTML = "<input/>"
+}

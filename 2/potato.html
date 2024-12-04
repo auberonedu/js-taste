@@ -1,20 +1,23 @@
 <!DOCTYPE html>
+<!-- Marta Danch, Sang Minh, and Jenn Dwyer -->
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Potato Fun Page</title>
   <link rel="stylesheet" href="potato.css">
+  <script src="potato.js" defer></script>
 </head>
 <body>
+  
   <h1>🥔 Welcome to the Potato Fun Page 🥔</h1>
 
-  <button>Toggle Potato Scheme</button>
+  <button onclick="changeScheme()">Toggle Potato Scheme</button>
 
   
   <div class="faq">
     <div class="faq-question">Why are potatoes so great?</div>
-    <button>Reveal Potato Fact</button>
+    <button onclick="toggleHidden()">Reveal Potato Fact</button>
     <div class="faq-answer hidden" id="faq-answer">
       Potatoes are versatile, delicious, and can be mashed, fried, baked, or boiled. What's not to love?
     </div>
@@ -22,6 +25,6 @@
 
   
   <p>Potatoes are life. Big potatoes, small potatoes, we love them all. Click the button to adjust your potato text size!</p>
-  <button>Change Text Size</button>
+  <button onclick="changeSize()">Change Text Size</button>
 </body>
 </html>

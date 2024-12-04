@@ -15,3 +15,7 @@ function logButtonPress() {
 function toggleDarkMode(){
  document.body.classList.toggle("dark-mode");
 }
+
+function changeWackyButton(){
+    document.getElementById("wackyButton").innerHTML = "So wacky!!";
+}

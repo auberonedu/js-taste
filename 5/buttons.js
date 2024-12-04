@@ -8,6 +8,10 @@ function alertButtonPress() {
     alert("Alert Button Pressed")
 
 }
-fuction togglrDarkMode(){
-    Document.body.classList.toggle("darkmode")
+function togglrDarkMode(){
+    Document.body.classList.toggle("dark-mode")
+}
+
+function changeWacky(){
+document.getElementById("wackyButton").innerHTML= "WACKY!!!"
 }

@@ -1,8 +1,18 @@
+
+/* Marta Danch, Sang Minh, and Jenn Dwyer */
+
 body {
     font-family: Arial, sans-serif;
     background-color: #fff8dc;
     color: #5c3d1a;
     padding: 2rem;
+}
+.backgr-color {
+    background-color: #d2b48c;
+}
+
+.big-font {
+    font-size: 55px;
 }
 
 .faq {
@@ -33,4 +43,7 @@ button {
 button:hover {
     background-color: #e5c9a8;
 }
+
+
+
   

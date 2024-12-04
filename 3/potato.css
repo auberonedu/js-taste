@@ -33,4 +33,24 @@ button {
 button:hover {
     background-color: #e5c9a8;
 }
-  
+  body.alt-mode{
+    background-color: purple;
+    color: gold;
+  }
+
+  body.alt-mode header, body.alt-mode footer {
+    background-color: purple;
+    top: 500px;
+  }
+
+  /* p.textToChange {
+    font-size: 25px;
+  } */
+   
+  /* #textToChange {
+    font-size: 25px; 
+} */
+ 
+
+
+

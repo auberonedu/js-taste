@@ -3,6 +3,7 @@ body {
     background-color: #fff8dc;
     color: #5c3d1a;
     padding: 2rem;
+    transition: background-color .75s, color .75s, border .75s;
 }
 
 .faq {
@@ -18,6 +19,10 @@ body {
     display: none;
 }
 
+.SizeText {
+    font-size: 1.5rem;
+}
+
 button {
     margin: 0.5rem 0;
     padding: 0.5rem 1rem;
@@ -27,10 +32,51 @@ button {
     color: #5c3d1a; 
     border: 0.125rem solid #8b572a;
     border-radius: 0.3rem;
-    transition: background-color 0.3s;
-}
+    transition: background-color .75s, color .75s, border .75s;}
 
 button:hover {
     background-color: #e5c9a8;
 }
-  
+
+body.dark, .faq-answer {
+    background-color: #964B00;
+    color: rgb(9, 78, 15);
+}
+
+body.dark button, .faq-answer   {
+    background-color: #5c3d1a;
+    color: #d2b48c;
+    border: .125rem solid #dda026;
+}
+
+.h1hidden {
+    display: none;
+}
+
+.h1visible {
+    display: block;
+}
+
+.buttonvisible {
+    display: block;
+}
+
+.buttonhidden {
+    display: none;
+}
+
+#faqvisible {
+    display: block;
+}
+
+#faqhidden {
+    display: none;
+}
+
+.pvisible {
+    display: block;
+}
+
+.phidden {
+    display: none;
+}

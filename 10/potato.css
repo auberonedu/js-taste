@@ -3,6 +3,22 @@ body {
     background-color: #fff8dc;
     color: #5c3d1a;
     padding: 2rem;
+    transition: background-color 1s, color 1s;
+}
+
+body.altscheme {
+    background-color: #5c3d1a;
+    color: #fff8dc;
+    transition: background-color 1s, color 1s;
+}
+
+h1 {
+    transition: font-size .5s;
+}
+
+h1.textBig {
+    font-size: 5rem;
+    
 }
 
 .faq {
